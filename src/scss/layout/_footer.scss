@@ -1,10 +1,22 @@
 @use '../core/variables' as vars;
 
-.page__footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    padding: 1rem;
-    color: vars.$color-secondary;
+.footer {
+  background-color: #333; /* color del header, ajústalo si usas otro */
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 2px solid #555;
+}
+
+
+.footer__contenido {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer__contenido p {
+  margin: 5px 0;
 }

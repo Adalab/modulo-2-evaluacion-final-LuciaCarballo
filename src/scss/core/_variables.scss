@@ -1,6 +1,10 @@
 // fonts
-$font-main: 'Roboto', sans-serif;
+$font-main: 'Roboto', sans-serif;             
+$font-title: 'Playfair Display', serif;       
+$font-product: 'Segoe UI', Tahoma, sans-serif; 
 
 // colors
-$color-bg: #f3f4f5;
-$color-secondary: #999;
+$color-bg: #f3f4f5; // color de fondo general
+$color-button: #4f46e5; // color principal de los botones
+$color-button-hover: #3730a3; // color cuando el botón está en hover
+$color-button-active: #ca3838; // color para botones activos (por ejemplo, "Eliminar")
